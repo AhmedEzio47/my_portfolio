@@ -12,7 +12,7 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: VxBox(
-        child: Column(mainAxisAlignment: MainAxisAlignment.end, children: [
+        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           ZStack(
             [
               MyPicture(),
