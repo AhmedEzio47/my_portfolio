@@ -36,6 +36,7 @@ class ProjectIWidget extends StatelessWidget {
           .shadow
           .p8
           .height(height)
+          .width(70)
           .rounded
           .make(),
     );

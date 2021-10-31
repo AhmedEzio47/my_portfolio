@@ -25,7 +25,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: <Widget>[Header(), Expanded(child: MyProjects())],
               )
             : Row(
-                children: <Widget>[Header(), Expanded(child: MyProjects())],
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  Header(),
+                  Expanded(
+                    child: MyProjects(),
+                  )
+                ],
               ),
       ),
     );
